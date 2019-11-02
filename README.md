@@ -5,6 +5,6 @@ Welcome to this File.
 
 Collaborators
 * Du Yeon, Kang
-* Ju Hyeon, Lee
+* Joo Hyun, Lee
 * Hyun Woo, Lee
 * Seo Yoon, Jeong
