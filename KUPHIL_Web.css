@@ -1,0 +1,169 @@
+
+li{list-style: none;}
+a{text-decoration: none;}
+@-webkit-keyframes menuImgHidden {
+  from {opacity: 0.8;}
+  to {opacity: 0.2;}
+}
+
+body{
+	width:100%;
+	height:100%;
+	background-color: #353339;
+	margin:0;
+}
+nav{
+	position: fixed;
+	width:50%;
+	height:10%;
+	font-size: 120%;
+	right:1%;
+
+}
+/*nav ul{
+	height:100%;
+}
+nav ul li{
+	height:100%;
+	float:right;
+}*/
+.upmenu{
+	float:right;
+	color:#BBA791;
+	margin-right:5%;
+	/*margin-top:3%;*/
+}
+.upmenu:hover{
+	color:white;
+}
+#signin{
+	margin-right:2%;
+}
+/*nav ul{
+	height:100%;
+	margin:0;
+}
+nav ul li {
+	float:left;
+	left:10%;
+	position:fixed;
+	text-align:center;
+	height:100%;
+	margin:0% 10% 0% 10%;
+	margin-top:5%;
+}
+nav ul li a {
+	color:#BBA791;
+}*/
+nav ul li a:hover {
+	color: white;
+	-webkit-transition: color 0.5s;
+    -moz-transition:    color 0.5s;
+    -ms-transition:     color 0.5s;
+    -o-transition:      color 0.5s;
+    transition:         color 0.5s;
+}
+/*nav ul li a:focus {
+
+	color: rgba(255, 80, 32, 1);
+}*/
+html{
+	width:100%;
+	height:100%;
+	position:relative;
+	background-color:pink;
+	margin:0;
+}
+header{
+	height:10%;
+	background-color:#353339;
+	position:relative;
+}
+#left{
+	height:85%;
+	width:68%;
+	/*background-color: #48120E;*/
+	background-color:#56393F;
+	float:left;
+	margin:1%;
+
+}
+img{
+	width:100%;
+	height:100%;
+}
+#right{
+	height:85%;
+	width:28%;
+	float:right;
+	position:relative;
+	background-color:white;
+	margin:1%;
+}
+#logo{
+	height:100%;
+	width:10%;
+	margin-left:1%;
+	float:left;
+}
+
+.menu:hover .trans{
+	-webkit-animation-name: menuImgHidden;
+    -webkit-animation-duration: 0.5s;
+    -webkit-animation-timing-function:ease-in-out;
+    -webkit-animation-direction: alternate;
+    -webkit-animation-fill-mode: forwards;
+}
+#menu1{
+	background-color:#DEB3B6; height:33%;
+}
+#menu2{
+	background-color:#F2D2D5; height:33%;
+}
+#menu3{
+	background-color:#FDE9EA; height:34%;
+}
+#trans_menu1{
+	position:absolute;
+	top:0;
+	left:0;
+	height:33%;
+	z-index: 10;
+}
+#trans_menu2{
+	position:absolute;
+	top:33%;
+	left:0;
+	height:33%;
+	z-index: 10;
+}
+#trans_menu3{
+	position:absolute;
+	top:66%;
+	left:0;
+	height:34%;
+	z-index: 10;
+}
+.trans{
+	position:absolute;
+	left:0;
+	width:100%;
+	opacity:0.8;
+	/*background-color:black;*/
+	z-index:8;
+}
+#trans1{
+	top:0;
+	height:33%;
+	background-color:#E0A191;
+}
+#trans2{
+	top:33%;
+	height:33%;
+	background-color:#F0C5B7;
+}
+#trans3{
+	top:66%;
+	height:34%;
+	background-color:#F2DCD3;
+}
