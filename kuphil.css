@@ -1,0 +1,96 @@
+*{margin:0;}
+li{list-style: none;}
+a{text-decoration: none;}
+@-webkit-keyframes menuImgHidden {
+  from {opacity: 0.8;}
+  to {opacity: 0.2;}
+}
+img{width:100%; height:100%;}
+html{position:absolute;background-color:black;	
+	height:100%;width:100%;	position:absolute;}
+body{position:relative;background-color:yellow;	
+	height:100%;	width:100%;	margin:0;}
+header{background-color:black;	position:fixed;	
+	height:10%;	width:100%;z-index: 100;}
+nav{position:absolute; width:40%; height:100%; left:60%;}
+ul{position:absolute; width:100%; height:100%; left:0%;}
+li{position:absolute; width:20%; height:60%; left:0; top:30%;}
+#signin{left:30%; top:30%;}
+#login{left:50%; top:30%;}
+#attendance{left:65%; top:30%;}
+.upmenu{color:#BBA791; font-size:80%;}
+.upmenu:hover{color:white;}
+#kp_logo{width:10%; height:100%; position:absolute; top:0; left:0%;}
+#main{background-color:#EAE6E5;	height:100%;	
+	width:100%; top:10%; position:absolute;}
+#menu0{position:absolute; height:70%; width:70%;}
+#menu1{position:absolute;background-color:#E7D6CF;
+	height:70%; width:30%;left:70%;}
+#menu2{position:absolute;background-color:#CDACA2;
+	height:50%; width:40%;top:70%;}
+#menu3{position:absolute;background-color:#735250;
+	height:50%; width:60%;top:70%;left:40%;}
+footer{position:absolute;background-color:black; color:#555555;	
+	height:30%;	width:100%; top:130%;}
+footer h4, h3{padding:1%; text-align: center}
+footer img{height:30px; width:30px; position:absolute; left:30%;}
+.menu:hover .trans{
+	cursor:pointer;
+	-webkit-animation-name: menuImgHidden;
+    -webkit-animation-duration: 0.5s;
+    -webkit-animation-timing-function:ease-in-out;
+    -webkit-animation-direction: alternate;
+    -webkit-animation-fill-mode: forwards;
+}
+.trans{position:absolute;top:0%;left:0%;height:100%;width:100%;
+	width:100%;opacity:0.8;z-index:8;}
+#trans1{background-color:#574343;}
+#trans2{background-color:#B19B8C;}
+#trans3{background-color:#E3DDCE;}
+.trans_menu{position:absolute;top:0;left:0;z-index: 11;}
+.menu_text{cursor:pointer;font-family: 'Carrois Gothic SC', sans-serif;
+	position:absolute;top:35%;left:2%;z-index:20;color:white; width:100%;
+	height:30%;
+	text-align:left;font-size:70%;}
+#menutext1>img{height:auto; width:80%; position:absolute;}
+#menutext2>img{height:auto; width:60%; position:absolute;}
+#menutext3>img{height:auto; width:40%; position:absolute;}
+hr{border:1.5px solid white;}
+
+/*================NOTIE BOARD PAGE================================*/
+#noticeLists{position: absolute;
+	height:80%; left:5%; top:10%; width:20%; float:left;}
+#noticeLists dl{padding:0; height:100%; width:100%; position:absolute;}
+#noticeLists dl dt{text-align:center;height:10%; width:100%; 
+	background-color: #786866; color:white;margin-bottom:2.5%;
+	display:block;}
+#nContents{background-color: #FFFFFF; float:right; height:80%;
+	width:68%; position:absolute; left:25%; 
+	border:solid 5px #786866;}
+#noticeLists dl dt.closed{background: #C3B7AC;}
+/*.nButton{position:absolute; left:5%; top:100%; height:8%; width:30px;
+background-color:#786866;}*/
+#nTitle{position:absolute;left:0; top:0; height:15%;
+background-color: #E9D9C2; width:100%;}
+#nTitle>p{height:40%; font-size:1.5em; font-style:bold; padding:2%;
+	top:10%; position:absolute;}
+#contents{position:absolute; left:0%; top:15%; height:65%; width:100%;
+background-color:#EAE6E5;}
+#contents>p{padding:2%;}
+#nEtc{position:absolute; left:0%; top:80%; height:20%; width:100%;
+background-color:#E9D9C2;}
+#nEtc>p{padding:2%;}
+/*=================================================================*/
+
+
+/*Sign in Page */
+#signinArea{position:absolute; top:25%; left:30%; background-color:white;
+width:40%; height:40%; border:5px solid #786866;}
+#signinForm{left:55%; position:absolute; top:30%; width:50%; height:50%;}
+#signinForm dt{width:100%; height:30%;}
+#signinForm dt input{margin-bottom:2%; border:2px solid #C3B7AC;
+width:80%; height:70%;}
+#signinImg{width:40%; height:45%; position:absolute; top:25%;}
+#signinText{width:10%; height:45%; left:40%; top:30%; 
+	position:absolute;}
+#signinText dt{margin-bottom:50%;}
