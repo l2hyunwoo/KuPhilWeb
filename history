@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="test.css">
+	<link href="https://fonts.googleapis.com/css?family=Carrois+Gothic+SC|Caveat|Didact+Gothic|Playball|ZCOOL+KuaiLe&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Charm&display=swap" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+	<script type="text/javascript" src="test.js"></script>
+
+	<title></title>
+</head>
+
+<body>
+<header>
+	<a href="test.html"><img src="logo.jpg" id="kp_logo"></a>
+	<nav>
+		<ul>
+			<li id ="signin"><a href="signinPage.html" class="upmenu">SIGN IN</a></li>
+			<li id = "login"><a href="loginPage.html" class="upmenu">LOGIN</a></li>
+			<li id = "attendance"><a href="attendancePage.html" class="upmenu">ATTENDANCE</a></li>
+		</ul>
+	</nav>
+</header>
+<div id="main">
+	
+</div>
+<footer>
+	<h3>ABOUT US</h3>
+	<h4>kuphilwebpage@google.com</h4>
+	<!-- <img src="insta.png"> -->
+</footer>
+</body>
+</html>
